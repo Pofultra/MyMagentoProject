@@ -1,0 +1,355 @@
+[2024-02-07T15:34:58.290781+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Command/Command.php(221): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#4 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-02-07T15:41:20.575347+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Command/Command.php(221): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#4 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-02-07T15:52:47.087586+00:00] main.ERROR: Parameter validation failed
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Command/Command.php(221): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#2 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#3 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#4 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#5 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-02-07T16:00:22.332231+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes found in your cluster
+#0 /var/www/dev.myproject.local/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /var/www/dev.myproject.local/setup/src/Magento/Setup/Model/Installer.php(1208): Magento\Setup\Model\SearchConfig->saveConfiguration()
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration()
+#3 /var/www/dev.myproject.local/setup/src/Magento/Setup/Model/Installer.php(386): call_user_func_array()
+#4 /var/www/dev.myproject.local/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install()
+#5 /var/www/dev.myproject.local/vendor/symfony/console/Command/Command.php(255): Magento\Setup\Console\Command\InstallCommand->execute()
+#6 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#7 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#8 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#9 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#10 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2024-02-07T16:01:04.849129+00:00] main.ERROR: There are no commands defined in the "config" namespace.
+
+Did you mean one of these?
+    app:config
+    module:config
+    setup:config
+    setup:store-config
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-02-07T16:01:09.575516+00:00] main.ERROR: There are no commands defined in the "config" namespace.
+
+Did you mean one of these?
+    app:config
+    module:config
+    setup:config
+    setup:store-config
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-02-07T16:01:19.126073+00:00] main.ERROR: There are no commands defined in the "config" namespace.
+
+Did you mean one of these?
+    app:config
+    module:config
+    setup:config
+    setup:store-config
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-02-07T16:01:23.705718+00:00] main.ERROR: There are no commands defined in the "config" namespace.
+
+Did you mean one of these?
+    app:config
+    module:config
+    setup:config
+    setup:store-config
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-02-07T16:01:28.354674+00:00] main.ERROR: There are no commands defined in the "config" namespace.
+
+Did you mean one of these?
+    app:config
+    module:config
+    setup:config
+    setup:store-config
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-02-07T16:01:32.952102+00:00] main.ERROR: There are no commands defined in the "config" namespace.
+
+Did you mean one of these?
+    app:config
+    module:config
+    setup:config
+    setup:store-config
+#0 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(659): Symfony\Component\Console\Application->findNamespace()
+#1 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(237): Symfony\Component\Console\Application->find()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /var/www/dev.myproject.local/vendor/symfony/console/Application.php(149): Magento\Framework\Console\Cli->doRun()
+#4 /var/www/dev.myproject.local/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2024-02-07T16:45:29.919304+00:00] main.CRITICAL: Could not ping search engine: No alive nodes found in your cluster [] []
+[2024-02-07T16:47:51.939529+00:00] main.CRITICAL: {"error":{"root_cause":[{"type":"invalid_index_name_exception","reason":"Invalid index name [myProject_product_1_v1], must be lowercase","index_uuid":"_na_","index":"myProject_product_1_v1"}],"type":"invalid_index_name_exception","reason":"Invalid index name [myProject_product_1_v1], must be lowercase","index_uuid":"_na_","index":"myProject_product_1_v1"},"status":400} [] []
+[2024-02-07T16:50:27.395165+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2024-02-07T16:50:27.400266+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2024-02-07T16:50:27.400439+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2024-02-07T16:50:27.400529+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2024-02-07T16:50:27.400627+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2024-02-07T16:50:27.400712+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2024-02-07T16:50:27.400795+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2024-02-07T16:50:27.400878+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2024-02-07T16:50:27.400962+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2024-02-07T16:50:27.401059+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2024-02-07T16:50:27.401154+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2024-02-07T16:50:27.401238+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2024-02-07T16:50:27.401332+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2024-02-07T16:50:27.401416+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2024-02-07T16:50:27.401510+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2024-02-07T16:50:27.401594+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2024-02-07T16:50:27.401677+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2024-02-07T16:50:27.401777+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2024-02-07T16:50:27.401862+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2024-02-07T16:50:27.401945+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2024-02-07T16:50:27.402041+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2024-02-07T16:50:27.402126+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2024-02-07T16:50:27.402209+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2024-02-07T16:50:27.402291+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2024-02-07T16:50:27.402374+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2024-02-07T16:50:27.402473+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2024-02-07T16:50:27.402557+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2024-02-07T16:50:27.402640+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2024-02-07T16:50:27.402723+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2024-02-07T16:50:27.402816+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2024-02-07T16:50:27.403070+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2024-02-07T16:50:27.403154+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2024-02-07T16:50:27.403236+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2024-02-07T16:50:27.403319+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2024-02-07T16:50:27.403403+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2024-02-07T16:50:27.403497+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2024-02-07T16:50:27.403582+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2024-02-07T16:50:27.403689+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2024-02-07T16:50:27.403774+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2024-02-07T16:50:27.403856+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2024-02-07T16:50:27.403950+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2024-02-07T16:50:27.404037+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2024-02-07T16:50:27.404136+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2024-02-07T16:50:27.404220+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2024-02-07T16:50:27.404312+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2024-02-07T16:50:27.404397+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2024-02-07T16:50:27.404490+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2024-02-07T16:50:27.404574+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2024-02-07T16:50:27.404668+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2024-02-07T16:50:27.404752+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2024-02-07T16:50:27.404844+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2024-02-07T16:50:27.404934+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2024-02-07T16:50:27.405037+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2024-02-07T16:50:27.405134+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2024-02-07T16:50:27.405217+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2024-02-07T16:50:27.405300+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2024-02-07T16:50:27.405382+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2024-02-07T16:50:27.405464+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2024-02-07T16:50:27.405547+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2024-02-07T16:50:27.405630+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2024-02-07T16:50:27.405729+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2024-02-07T16:50:27.405823+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2024-02-07T16:50:27.405907+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2024-02-07T16:50:27.406000+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2024-02-07T16:50:27.406094+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2024-02-07T16:50:27.406178+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2024-02-07T16:50:27.406261+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2024-02-07T16:50:27.406356+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2024-02-07T16:50:27.406441+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2024-02-07T16:50:27.406528+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2024-02-07T16:50:27.406621+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2024-02-07T16:50:27.406705+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2024-02-07T16:50:27.406787+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2024-02-07T16:50:27.406871+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2024-02-07T16:50:27.406956+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2024-02-07T16:50:27.407050+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2024-02-07T16:50:27.407135+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2024-02-07T16:50:27.407217+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2024-02-07T16:50:27.407300+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2024-02-07T16:50:27.407382+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2024-02-07T16:50:27.407464+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2024-02-07T16:50:27.407557+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2024-02-07T16:50:27.407653+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2024-02-07T16:50:27.407736+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2024-02-07T16:50:27.407819+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2024-02-07T16:50:27.407908+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2024-02-07T16:50:27.407992+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2024-02-07T16:50:27.408078+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2024-02-07T16:50:27.408161+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2024-02-07T16:50:27.408256+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2024-02-07T16:50:27.408340+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2024-02-07T16:50:27.408422+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2024-02-07T16:50:27.408505+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2024-02-07T16:50:27.408604+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2024-02-07T16:50:27.408690+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2024-02-07T16:50:27.408772+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2024-02-07T16:50:27.408855+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2024-02-07T16:50:27.408938+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2024-02-07T16:50:27.409021+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2024-02-07T16:50:27.409104+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2024-02-07T16:50:27.409187+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2024-02-07T16:50:27.409269+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2024-02-07T16:50:27.409352+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2024-02-07T16:50:27.409436+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2024-02-07T16:50:27.409518+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2024-02-07T16:50:27.409605+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2024-02-07T16:50:27.409688+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2024-02-07T16:50:27.409771+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2024-02-07T16:50:27.409865+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2024-02-07T16:50:27.409949+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2024-02-07T16:50:27.410032+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2024-02-07T16:50:27.410125+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2024-02-07T16:50:27.410209+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2024-02-07T16:50:27.410292+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2024-02-07T16:50:27.410374+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2024-02-07T16:50:27.410467+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2024-02-07T16:50:27.410552+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2024-02-07T16:50:27.410634+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2024-02-07T16:50:27.410723+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2024-02-07T16:50:27.410818+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2024-02-07T16:50:27.410902+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2024-02-07T16:50:27.411000+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2024-02-07T16:50:27.411084+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2024-02-07T16:50:27.411167+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2024-02-07T16:50:27.411249+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2024-02-07T16:50:29.070096+00:00] main.ERROR: Laminas\Mail\Transport\Exception\RuntimeException: Unable to send mail: Unknown error in /var/www/dev.myproject.local/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:310
+Stack trace:
+#0 /var/www/dev.myproject.local/vendor/laminas/laminas-mail/src/Transport/Sendmail.php(149): Laminas\Mail\Transport\Sendmail->mailHandler()
+#1 /var/www/dev.myproject.local/vendor/magento/module-email/Model/Transport.php(111): Laminas\Mail\Transport\Sendmail->send()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Transport->sendMessage()
+#3 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Email\Model\Transport\Interceptor->___callParent()
+#4 /var/www/dev.myproject.local/vendor/magento/module-email/Model/Mail/TransportInterfacePlugin.php(48): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Email\Model\Mail\TransportInterfacePlugin->aroundSendMessage()
+#6 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/dev.myproject.local/generated/code/Magento/Email/Model/Transport/Interceptor.php(23): Magento\Email\Model\Transport\Interceptor->___callPlugins()
+#8 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/EmailUserNotifier.php(106): Magento\Email\Model\Transport\Interceptor->sendMessage()
+#9 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/EmailUserNotifier.php(135): Magento\TwoFactorAuth\Model\EmailUserNotifier->sendConfigRequired()
+#10 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/UserConfig/UserConfigRequestManager.php(82): Magento\TwoFactorAuth\Model\EmailUserNotifier->sendAppConfigRequestMessage()
+#11 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Controller/Adminhtml/Tfa/Requestconfig.php(95): Magento\TwoFactorAuth\Model\UserConfig\UserConfigRequestManager->sendConfigRequestTo()
+#12 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig->execute()
+#13 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callParent()
+#14 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#15 /var/www/dev.myproject.local/generated/code/Magento/TwoFactorAuth/Controller/Adminhtml/Tfa/Requestconfig/Interceptor.php(23): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callPlugins()
+#16 /var/www/dev.myproject.local/vendor/magento/framework/App/Action/Action.php(111): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->execute()
+#17 /var/www/dev.myproject.local/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#18 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Controller/Adminhtml/AbstractAction.php(30): Magento\Backend\App\AbstractAction->dispatch()
+#19 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\TwoFactorAuth\Controller\Adminhtml\AbstractAction->dispatch()
+#20 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callParent()
+#21 /var/www/dev.myproject.local/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#22 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#23 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#24 /var/www/dev.myproject.local/generated/code/Magento/TwoFactorAuth/Controller/Adminhtml/Tfa/Requestconfig/Interceptor.php(32): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callPlugins()
+#25 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(245): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->dispatch()
+#26 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#27 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#28 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#29 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#30 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#31 /var/www/dev.myproject.local/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#32 /var/www/dev.myproject.local/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#33 /var/www/dev.myproject.local/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#34 /var/www/dev.myproject.local/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#35 {main} [] []
+[2024-02-07T16:50:29.070488+00:00] main.CRITICAL: Laminas\Mail\Transport\Exception\RuntimeException: Unable to send mail: Unknown error in /var/www/dev.myproject.local/vendor/laminas/laminas-mail/src/Transport/Sendmail.php:310
+Stack trace:
+#0 /var/www/dev.myproject.local/vendor/laminas/laminas-mail/src/Transport/Sendmail.php(149): Laminas\Mail\Transport\Sendmail->mailHandler()
+#1 /var/www/dev.myproject.local/vendor/magento/module-email/Model/Transport.php(111): Laminas\Mail\Transport\Sendmail->send()
+#2 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Transport->sendMessage()
+#3 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Email\Model\Transport\Interceptor->___callParent()
+#4 /var/www/dev.myproject.local/vendor/magento/module-email/Model/Mail/TransportInterfacePlugin.php(48): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Email\Model\Mail\TransportInterfacePlugin->aroundSendMessage()
+#6 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#7 /var/www/dev.myproject.local/generated/code/Magento/Email/Model/Transport/Interceptor.php(23): Magento\Email\Model\Transport\Interceptor->___callPlugins()
+#8 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/EmailUserNotifier.php(106): Magento\Email\Model\Transport\Interceptor->sendMessage()
+#9 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/EmailUserNotifier.php(135): Magento\TwoFactorAuth\Model\EmailUserNotifier->sendConfigRequired()
+#10 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/UserConfig/UserConfigRequestManager.php(82): Magento\TwoFactorAuth\Model\EmailUserNotifier->sendAppConfigRequestMessage()
+#11 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Controller/Adminhtml/Tfa/Requestconfig.php(95): Magento\TwoFactorAuth\Model\UserConfig\UserConfigRequestManager->sendConfigRequestTo()
+#12 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig->execute()
+#13 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callParent()
+#14 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#15 /var/www/dev.myproject.local/generated/code/Magento/TwoFactorAuth/Controller/Adminhtml/Tfa/Requestconfig/Interceptor.php(23): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callPlugins()
+#16 /var/www/dev.myproject.local/vendor/magento/framework/App/Action/Action.php(111): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->execute()
+#17 /var/www/dev.myproject.local/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#18 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Controller/Adminhtml/AbstractAction.php(30): Magento\Backend\App\AbstractAction->dispatch()
+#19 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\TwoFactorAuth\Controller\Adminhtml\AbstractAction->dispatch()
+#20 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callParent()
+#21 /var/www/dev.myproject.local/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#22 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#23 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#24 /var/www/dev.myproject.local/generated/code/Magento/TwoFactorAuth/Controller/Adminhtml/Tfa/Requestconfig/Interceptor.php(32): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callPlugins()
+#25 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(245): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->dispatch()
+#26 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#27 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#28 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#29 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#30 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#31 /var/www/dev.myproject.local/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#32 /var/www/dev.myproject.local/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#33 /var/www/dev.myproject.local/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#34 /var/www/dev.myproject.local/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#35 {main}
+
+Next Magento\Framework\Exception\MailException: Unable to send mail. Please try again later. in /var/www/dev.myproject.local/vendor/magento/module-email/Model/Transport.php:114
+Stack trace:
+#0 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Email\Model\Transport->sendMessage()
+#1 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Email\Model\Transport\Interceptor->___callParent()
+#2 /var/www/dev.myproject.local/vendor/magento/module-email/Model/Mail/TransportInterfacePlugin.php(48): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Email\Model\Mail\TransportInterfacePlugin->aroundSendMessage()
+#4 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Email\Model\Transport\Interceptor->Magento\Framework\Interception\{closure}()
+#5 /var/www/dev.myproject.local/generated/code/Magento/Email/Model/Transport/Interceptor.php(23): Magento\Email\Model\Transport\Interceptor->___callPlugins()
+#6 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/EmailUserNotifier.php(106): Magento\Email\Model\Transport\Interceptor->sendMessage()
+#7 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/EmailUserNotifier.php(135): Magento\TwoFactorAuth\Model\EmailUserNotifier->sendConfigRequired()
+#8 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Model/UserConfig/UserConfigRequestManager.php(82): Magento\TwoFactorAuth\Model\EmailUserNotifier->sendAppConfigRequestMessage()
+#9 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Controller/Adminhtml/Tfa/Requestconfig.php(95): Magento\TwoFactorAuth\Model\UserConfig\UserConfigRequestManager->sendConfigRequestTo()
+#10 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig->execute()
+#11 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callParent()
+#12 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#13 /var/www/dev.myproject.local/generated/code/Magento/TwoFactorAuth/Controller/Adminhtml/Tfa/Requestconfig/Interceptor.php(23): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callPlugins()
+#14 /var/www/dev.myproject.local/vendor/magento/framework/App/Action/Action.php(111): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->execute()
+#15 /var/www/dev.myproject.local/vendor/magento/module-backend/App/AbstractAction.php(151): Magento\Framework\App\Action\Action->dispatch()
+#16 /var/www/dev.myproject.local/vendor/magento/module-two-factor-auth/Controller/Adminhtml/AbstractAction.php(30): Magento\Backend\App\AbstractAction->dispatch()
+#17 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\TwoFactorAuth\Controller\Adminhtml\AbstractAction->dispatch()
+#18 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callParent()
+#19 /var/www/dev.myproject.local/vendor/magento/module-backend/App/Action/Plugin/Authentication.php(145): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(135): Magento\Backend\App\Action\Plugin\Authentication->aroundDispatch()
+#21 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->Magento\Framework\Interception\{closure}()
+#22 /var/www/dev.myproject.local/generated/code/Magento/TwoFactorAuth/Controller/Adminhtml/Tfa/Requestconfig/Interceptor.php(32): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->___callPlugins()
+#23 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(245): Magento\TwoFactorAuth\Controller\Adminhtml\Tfa\Requestconfig\Interceptor->dispatch()
+#24 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(212): Magento\Framework\App\FrontController->getActionResponse()
+#25 /var/www/dev.myproject.local/vendor/magento/framework/App/FrontController.php(147): Magento\Framework\App\FrontController->processRequest()
+#26 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\FrontController->dispatch()
+#27 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\FrontController\Interceptor->___callParent()
+#28 /var/www/dev.myproject.local/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}()
+#29 /var/www/dev.myproject.local/generated/code/Magento/Framework/App/FrontController/Interceptor.php(23): Magento\Framework\App\FrontController\Interceptor->___callPlugins()
+#30 /var/www/dev.myproject.local/vendor/magento/framework/App/Http.php(116): Magento\Framework\App\FrontController\Interceptor->dispatch()
+#31 /var/www/dev.myproject.local/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#32 /var/www/dev.myproject.local/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#33 {main} [] []
